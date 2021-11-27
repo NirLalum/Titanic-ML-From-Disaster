@@ -26,3 +26,5 @@ def value_counts_all(df: DataFrame):
         print('-' * 40 + col + '-' * 40 , end=' - ')
         print('\n')
         print(f"{df[col].value_counts()}\n")
+
+
